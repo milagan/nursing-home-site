@@ -1,0 +1,53 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#e8f4f8"/>
+  
+  <!-- Sky -->
+  <rect width="800" height="300" fill="#87ceeb"/>
+  
+  <!-- Sun -->
+  <circle cx="700" cy="100" r="50" fill="#ffd700"/>
+  
+  <!-- Ground -->
+  <rect y="300" width="800" height="300" fill="#90ee90"/>
+  
+  <!-- Building -->
+  <rect x="200" y="200" width="400" height="250" fill="#f5deb3" stroke="#8b7355" stroke-width="2"/>
+  
+  <!-- Roof -->
+  <polygon points="200,200 400,100 600,200" fill="#8b4513"/>
+  
+  <!-- Door -->
+  <rect x="370" y="350" width="60" height="100" fill="#654321"/>
+  <circle cx="415" cy="400" r="3" fill="#ffd700"/>
+  
+  <!-- Windows -->
+  <rect x="250" y="250" width="60" height="60" fill="#87ceeb" stroke="#333" stroke-width="2"/>
+  <line x1="280" y1="250" x2="280" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="250" y1="280" x2="310" y2="280" stroke="#333" stroke-width="2"/>
+  
+  <rect x="490" y="250" width="60" height="60" fill="#87ceeb" stroke="#333" stroke-width="2"/>
+  <line x1="520" y1="250" x2="520" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="490" y1="280" x2="550" y2="280" stroke="#333" stroke-width="2"/>
+  
+  <!-- Trees -->
+  <rect x="100" y="320" width="20" height="80" fill="#8b4513"/>
+  <circle cx="110" cy="300" r="40" fill="#228b22"/>
+  
+  <rect x="680" y="320" width="20" height="80" fill="#8b4513"/>
+  <circle cx="690" cy="300" r="40" fill="#228b22"/>
+  
+  <!-- Garden path -->
+  <rect x="380" y="450" width="40" height="150" fill="#b8860b"/>
+  
+  <!-- Flowers -->
+  <circle cx="150" cy="420" r="8" fill="#ff69b4"/>
+  <circle cx="170" cy="430" r="8" fill="#ff1493"/>
+  <circle cx="650" cy="420" r="8" fill="#ff69b4"/>
+  <circle cx="670" cy="430" r="8" fill="#ffa500"/>
+  
+  <!-- Sign -->
+  <rect x="50" y="380" width="120" height="60" fill="#fff" stroke="#333" stroke-width="2"/>
+  <text x="110" y="405" font-family="Arial" font-size="14" fill="#2c5f7d" text-anchor="middle" font-weight="bold">Serenity</text>
+  <text x="110" y="425" font-family="Arial" font-size="14" fill="#2c5f7d" text-anchor="middle" font-weight="bold">Care Home</text>
+</svg>
